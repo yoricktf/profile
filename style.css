@@ -1,0 +1,102 @@
+body {
+background-color: #f1f0ea;
+/* background-color: red; */
+font-family: 'Poppins', 'san serif';
+font-weight: 200;
+color: #2d232e;
+font-size: large;
+line-height:normal;
+box-sizing: border-box;
+}
+
+h1, h2 {
+ font-family: 'Poppins', 'san serif';
+ font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #f1f0ea;
+}
+
+a:hover {
+  color: #84c318;
+}
+
+p {
+  margin: 30px;
+}
+
+#btn {
+  border: solid 1px black;
+  background-color: #f1f0ea;
+  color:  #2d232e;
+  padding: 10px 20px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+}
+
+#btn:hover {
+  /* background-color: #2d232e; */
+  color:  #84c318;
+  border: solid 1px #84c318;
+}
+
+ul {
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 10px;
+}
+.card {
+ border: solid 1px lightgray;
+ background-color: white;
+ width: 600px;
+ margin: 40px auto;
+ padding: 20px 60px;
+ text-align: center;
+ box-sizing: border-box;
+ border-radius: 5px;
+ box-shadow: 1px 1px 2px lightgrey;
+}
+
+.fab {
+  font-size: 40px;
+}
+
+#dracula_pic {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background-color: #84c318;
+  background-image: url("images/profile.jpeg");
+  border: black solid 3px;
+  margin: auto;
+}
+
+#dracula_pic:hover {
+  background-image: url("images/dracula.jpeg");
+  background-position: center top;
+  /* border: solid 10px red; */
+  border: #84c318 solid 3px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 600px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 400px;
+  }
+}
