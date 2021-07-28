@@ -71,7 +71,7 @@ li {
   width: 200px;
   background-color: #84c318;
   background-image: url("images/profile.jpeg");
-  border: black solid 3px;
+  border: black solid 1px;
   margin: auto;
 }
 
@@ -79,7 +79,7 @@ li {
   background-image: url("images/dracula.jpeg");
   background-position: center top;
   /* border: solid 10px red; */
-  border: #84c318 solid 3px;
+  border: #84c318 solid 1px;
 }
 
 @media (max-width: 960px) {
